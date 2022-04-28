@@ -213,9 +213,7 @@ In exploring the data with further analysis on Python, the results can identify 
 
   - Percentage of fatalities per gender reveals a higher rate for females at 6.41%, this would be obvious due to higher number of cases in females. <br>
  
-<p align="center">
-![fatal_by_gender](https://user-images.githubusercontent.com/33900637/165676572-82828f6e-3552-40b7-9a95-5dbd8b217412.png)
-</p>
+![fatal_by_gender](https://user-images.githubusercontent.com/33900637/165676682-806c81c2-8b31-45cd-b986-f9d78ca498d5.png)
 <br>
  
  ## Storyboard
