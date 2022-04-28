@@ -178,7 +178,7 @@ Based on the Confusion Matrix below there are 3,152 Covid-19 cases used in the m
 An alternative model was created using another dataset, *cases_by_status_and phu.csv*.  This dataset was an exploratory model to predict exponential quantities and measure the accuracy of the model.  A Linear Regression was chosen due to the nature of the data. <br>
 <br>
 This dataset has 5 features; Date of when the cases was reported, PHU ID, Active cases, Resolved cases and Fatalities.  Data was cleaned using same steps as previous model.  Since the data is an accummulating data, it was normalized by calculating the square root, taking the results and squaring the numbers.  The data can also be normalized by using logarithm and reversing it by power operator.<br>
-We used the "Deaths" as the target *(y)* and the date as the feature *(X)*.  The active and resolved cases were removed as they would impact the results negatively and cause overfitting.  Again the data was split into training and testing sets. <br>
+I used the "Deaths" as the target *(y)* and the date as the feature *(X)*.  The active and resolved cases were removed as they would impact the results negatively and cause overfitting.  Again the data was split into training and testing sets. <br>
 <br>
 Since the data is based on each of the 34 Public Health Units, the model would need to run individually for each location.  Therefore for this purpose, the model was focused on the Toronto Public Health Unit.<br>
 <br>
@@ -285,5 +285,5 @@ Based on this analysis, each Public Health Unit in Ontario have different age gr
 <br>
 With this unforeseen pandemic, the Government rolled out the vaccination program as soon as possible, starting from the elderly age group down to the younger population to control the Covid-19 virus from spreading further.  Though this plan has been successful thus far, the rise of cases  took longer to curtail. <br>
 <br>
-Should there be another pandemic/epidemic in the future, we hope this analysis can shed light  and can be imitated on how to target a specific demographic of the population for each region in Ontario.  <br>
+Should there be another pandemic/epidemic in the future, I hope this analysis can shed light  and can be imitated on how to target a specific demographic of the population for each region in Ontario.  <br>
 Understanding there may be other logistics involved to distribute the vaccine based on the results here, a similar analysis can possibly highlight the need to vaccinate a specific part of the population first.  Which not only could avoid further spread but also diminish the cases sooner.
