@@ -214,7 +214,7 @@ In exploring the data with further analysis on Python, the results can identify 
   - Percentage of fatalities per gender reveals a higher rate for females at 6.41%, this would be obvious due to higher number of cases in females. <br>
  
 <p align="center">
-  <img src="https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Images/fatal_by_gender.png?raw=true">
+ ![fatal_by_gender](https://user-images.githubusercontent.com/33900637/165676506-e5169fa3-e47f-4bd9-9b7a-943c8d69b5d5.png)
 </p>
 <br>
  
