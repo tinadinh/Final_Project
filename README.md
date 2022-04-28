@@ -130,8 +130,7 @@ Similar to the ETL process, the dataset was required to be cleaned and preproces
   - plotted the density of value count of PHU_ID to determine what values to replace.
 
  <p align='center'>
-  <img src='https://user-images.githubusercontent.com/33900637/165677336-c82b0688-0b99-45c2-bef2-007999b02c20.png)
- '>
+    <img src= "https://user-images.githubusercontent.com/33900637/165678906-36ec467d-0093-4765-9fb6-17e524ee2b05.png")
  </p>
  
   - binned all PHU_IDs with less than 400 to keep the number of features at 10
