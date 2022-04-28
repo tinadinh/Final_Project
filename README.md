@@ -16,8 +16,8 @@ Below are the steps taken to provide results for this analysis.
 
 ## Extract, Transform & Load
 The original data downloaded had 522,465 records which is a much larger file to work with and push in github.  Therefore the dataset has been scaled down using a random sample method and creating a [sample_covid_dataset.csv](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Datasource/sample_covid_dataset.csv), resulting in 13,524 records.<br>
-This sampled dataset has been used for the database, machine learning model, exploratory analysis, Tableau and the interactive dashboard.
-*The sampled data has been filtered, cleaned and segregated to create new smaller datasets for each part of the project.*
+This sampled dataset has been used for the database, machine learning model, exploratory analysis, Tableau and the interactive dashboard.<br>
+*The sampled data has been filtered, cleaned and segregated to create new smaller datasets for each part of the project.*<br>
 
 ## Database 
 After the cleaning and preprocessing of the dataset, the [cleaned_dataset](https://github.com/UofT-Government-Project/Covid19_PHU/blob/Week_2/Datasource/PHU_dataset_cleaned_michelle.csv) was split into four different tables.  Below is the ERD as a blueprint for the database, establishing the relationships created for each table.
