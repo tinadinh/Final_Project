@@ -4,7 +4,7 @@
 This project is to showcase the strategic thinking and group efforts to predict and analyze the Covid-19 data for a vaccine roll-out program.  The analysis will recognize the trends; the highs and lows of Covid 19 cases at each of the 34 Public Health Units in Ontario, Canada. The reason for this topic is because Covid-19 has has a huge impact on everyone and also it is the most relevant and relatable topic to discuss currently.
 
 
-# Research goal
+## Research goal
 ***How do we determine the eligibility to excute a vaccination roll-out program?***
 
 The goal of this analysis is to plan and execute a successful vaccine roll-out program.   The process stated here is to assist the Ministry of Health to identify, prioritize and execute vaccinations based on age group and or gender for future epidemics and pandemics.  <br>
@@ -12,10 +12,7 @@ Data of current confirmed Covid-19 cases have been collected and used to create 
 The same data has been used for exploratory analysis to isolate results of each age group and gender for each Public Health Units.  <br>
 Below are the steps taken to provide results for this analysis.
 
-<br>
-**Data source:**<br>
-<br>
-
+### Data Source 
 [Ontario Data Catalogue](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
 <br>
 
