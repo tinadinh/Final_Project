@@ -5,7 +5,7 @@ This project is to showcase the strategic thinking and efforts to predict and an
 
 
 ## Research goal
-The goal of this analysis is to determine the eligibiltiy to plan and execute a successful vaccine roll-out program. The process stated here is to assist the Ministry of Health to identify, prioritize and execute vaccinations based on age group and or gender for future epidemics and pandemics.  <br>
+The goal of this analysis is to determine the eligibiltiy and also to plan and execute a successful vaccine roll-out program. The process stated here is to assist the Ministry of Health to identify, prioritize and execute vaccinations based on age group and or gender for future epidemics and pandemics.  <br>
 Data of current confirmed COVID-19 cases have been collected and used to create a machine learning model that can provide predictions and help understand the probability of higher cases within a specific attribute of demographics.  <br>
 The same data has been used for exploratory analysis to isolate results of each age group and gender for each Public Health Units.  <br>
 Below are the steps taken to provide results for this analysis.
