@@ -80,7 +80,7 @@ Using the newly saved csv files, four more tables were created and their corresp
 4.  PHU_Age_Group_Final - contains the age group per case associated with each PHU ID.
 
 <p align='center'>
-   <img width='400' height='297' src="https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Images/phu_age_group_final.png?raw=true">
+  <img width="250" alt="phu_age_group_final" src="https://user-images.githubusercontent.com/33900637/165677667-df43a048-a335-4a45-bbc7-5d432d3787e9.png">
 </p>                               
                                
                                 
@@ -127,7 +127,8 @@ Similar to the ETL process, the dataset was required to be cleaned and preproces
   - plotted the density of value count of PHU_ID to determine what values to replace.
 
  <p align='center'>
-  <img src='https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Images/PHU_density.png'>
+  <img src='https://user-images.githubusercontent.com/33900637/165677336-c82b0688-0b99-45c2-bef2-007999b02c20.png)
+ '>
  </p>
  
   - binned all PHU_IDs with less than 400 to keep the number of features at 10
@@ -182,7 +183,7 @@ Since the data is based on each of the 34 Public Health Units, the model would n
 After running the model the R_squared score was strong at 0.96. <br>
 <br>
 <p align='center'>
-  <img src='https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Images/graph_LR.png?raw=true'>
+  <img src='https://user-images.githubusercontent.com/33900637/165677188-3ea0d490-5fe5-476e-adc0-a115730df2a7.png'>
 </p>
 
 This model can predict the number of deaths in the near future if no external factor impacts the data.   It can be used to forecast the implications when the Ministry of Health need to weigh in the reasons of lockdown and or restrictions.  It can also assist the original goal of this analysis - a plan to execute a vaccination roll-out program that prioritizes based on deaths at each PHU. 
@@ -196,13 +197,13 @@ In exploring the data with further analysis on Python, the results can identify 
 <br>
 
 <p align='center'>
-  <img width='500' height='300' src='https://github.com/UofT-Government-Project/Covid19_PHU/blob/michelle/Visualizations/Covid_19_cases_by_age_group.png?raw=true'>
+  <img width='500' height='300' src='https://user-images.githubusercontent.com/33900637/165677155-2e3edbc2-a2d2-485c-b503-643e47a93cf3.png'>
 </p>
 
   - Number of cases per gender.  This chart reveals females have been more of the victim for contracting Covid-19, at 54.1% vs. males at 45.1%. <br>
   
 <p align='center'>
-  <img width='500' height='300' src='https://github.com/UofT-Government-Project/Covid19_PHU/blob/michelle/Visualizations/Covid_19_cases_by_gender.png?raw=true'>
+  <img width='500' height='300' src='https://user-images.githubusercontent.com/33900637/165677105-bf5ae333-e347-4f14-a77e-0bcbd8d89227.png'
 </p>
 
   - Cases by age and gender.  Below chart segregates the cases by gender and age.  Highest cases are females within the age of 40 and lowest are male in the ages of 90 +. <br>
