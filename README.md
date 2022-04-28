@@ -5,19 +5,16 @@ This project is to showcase the strategic thinking and group efforts to predict 
 
 
 ## Research goal
-***How do we determine the eligibility to excute a vaccination roll-out program?***
-
-The goal of this analysis is to plan and execute a successful vaccine roll-out program.   The process stated here is to assist the Ministry of Health to identify, prioritize and execute vaccinations based on age group and or gender for future epidemics and pandemics.  <br>
+The goal of this analysis is to determine the eligibiltiy to plan and execute a successful vaccine roll-out program. The process stated here is to assist the Ministry of Health to identify, prioritize and execute vaccinations based on age group and or gender for future epidemics and pandemics.  <br>
 Data of current confirmed Covid-19 cases have been collected and used to create a machine learning model that can provide predictions and help understand the probability of higher cases within a specific attribute of demographics.  <br>
 The same data has been used for exploratory analysis to isolate results of each age group and gender for each Public Health Units.  <br>
 Below are the steps taken to provide results for this analysis.
 
-### Data Source 
-[Ontario Data Catalogue](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
+#### Data Source 
+- [Ontario Data Catalogue](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
 <br>
 
 ## Extract, Transform & Load
-
 The original data downloaded had 522,465 records which is a much larger file to work with and push in github.  Therefore the dataset has been scaled down using a random sample method and creating a [sample_covid_dataset.csv](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Datasource/sample_covid_dataset.csv), resulting in 13,524 records.<br>
 This sampled dataset has been used for the database, machine learning model, exploratory analysis, Tableau and the interactive dashboard.
 <br>
@@ -25,11 +22,9 @@ Each team member has used the ETL process and saved work under their respective 
 *The sampled data has been filtered, cleaned and segregated to create new smaller datasets for each part of the project.*
 
 ### Extract:
-
 For the extract process, the sample dataset was pulled and read using Pandas in Python in a Jupyter notebook file.  Allowing the team to use multiple libraries to transform the  data for required purposes.
 
 ### Transform:
-
 The primary aim of the transformation process is to transform the data into a consistent structure.<br>
   - Drop any columns deemed unnecessary to the analysis <br>
   - Drop any null values<br>
@@ -39,7 +34,6 @@ The primary aim of the transformation process is to transform the data into a co
 
 
 ### Load:
-
 Finally, data was loaded into a PostgreSQL database for easy distribution. SQL databases are often the targets of ETL processes, and because SQL is so ubiquitous, even databases that don't use SQL often have SQL-like interfaces.  <br>
 <br>
 <p align='center'>
