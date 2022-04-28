@@ -169,7 +169,7 @@ Based on the Confusion Matrix below there are 3,152 Covid-19 cases used in the m
   - out of 2,958 total resolved cases - 51% of the cases were predicted false and 49% were predicted correct.
 
 <p align='center'>
-  <img src="Images/Confusion_matrix.png">
+ <img src="https://user-images.githubusercontent.com/33900637/165678193-583dde71-558d-49bc-ae8b-ac00bda171c9.png">
 </p>
 <br>
 <br>
@@ -279,9 +279,6 @@ Once data was saved as required, the file was called into a JavaScript file usin
 <p align='center'>
   <img width='294' height='607' src='https://user-images.githubusercontent.com/75437852/121713171-8df7a400-caaa-11eb-879f-884c883ce677.PNG'>
 </p>
-
-***The interactive dashboard has been deployed using github pages and can be viewed in full [here](https://uoft-government-project.github.io/Covid19_PHU/).***
-
 
 ## Summary
 
