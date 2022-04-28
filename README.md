@@ -50,7 +50,7 @@ To create a connection from the database into PostgreSql, the SQLAlchemy's creat
 
 ### PostgreSQL Database:
 
-Once the data was saved on the cloud storage, it was imported into a SQL database, Postgres using pgAdmin.  Using queries, a table named "phu" was created to host the entire dataset.  Further querying the main table, additional tables were created and then saved as csv files in Datasource file.  The new files were used by group members for different aspects of the project.<br>
+Once the data was saved on the cloud storage, it was imported into a SQL database, Postgres using pgAdmin.  Using queries, a table named "phu" was created to host the entire dataset.  Further querying the main table, additional tables were created and then saved as csv files in the Datasource file.  The new files were used by group members for different aspects of the project.<br>
 <br>
 *[schema1.sql](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/SQL_Schemas/schema1.sql) file shows the queries.*
 
