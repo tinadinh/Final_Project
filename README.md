@@ -224,7 +224,6 @@ In exploring the data with further analysis on Python, the results can identify 
  ## Storyboard
  
  Tableau has been used to create the final synopsis of the project's finding and display as a storyboard. <br>
- Below are the visualizations and link.
  
   1.  **Overview of Covid Cases**
 
