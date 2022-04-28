@@ -17,30 +17,7 @@ Below are the steps taken to provide results for this analysis.
 ## Extract, Transform & Load
 The original data downloaded had 522,465 records which is a much larger file to work with and push in github.  Therefore the dataset has been scaled down using a random sample method and creating a [sample_covid_dataset.csv](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Datasource/sample_covid_dataset.csv), resulting in 13,524 records.<br>
 This sampled dataset has been used for the database, machine learning model, exploratory analysis, Tableau and the interactive dashboard.
-<br>
-Each team member has used the ETL process and saved work under their respective branches to show different perspectives if any.  <br>
 *The sampled data has been filtered, cleaned and segregated to create new smaller datasets for each part of the project.*
-
-### Extract:
-For the extract process, the sample dataset was pulled and read using Pandas in Python in a Jupyter notebook file.  Allowing the team to use multiple libraries to transform the  data for required purposes.
-
-### Transform:
-The primary aim of the transformation process is to transform the data into a consistent structure.<br>
-  - Drop any columns deemed unnecessary to the analysis <br>
-  - Drop any null values<br>
-  - Renaming column names for efficiency<br>
-  - Separating the case date column into week, month and year <br>
-  - Filter for specific requirements to be used for each part of project. <br>
-
-
-### Load:
-Finally, data was loaded into a PostgreSQL database for easy distribution. SQL databases are often the targets of ETL processes, and because SQL is so ubiquitous, even databases that don't use SQL often have SQL-like interfaces.  <br>
-<br>
-<p align='center'>
-  <img src='https://raw.githubusercontent.com/UofT-Government-Project/Covid19_PHU/main/Images/ETL_Whole.PNG'>
-</p>
-<br>
-<br>
 
 ## Database 
 After the cleaning and preprocessing of the dataset, the [cleaned_dataset](https://github.com/UofT-Government-Project/Covid19_PHU/blob/Week_2/Datasource/PHU_dataset_cleaned_michelle.csv) was split into four different tables.  Below is the ERD as a blueprint for the database, establishing the relationships created for each table.
