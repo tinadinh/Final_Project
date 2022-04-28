@@ -211,10 +211,10 @@ In exploring the data with further analysis on Python, the results can identify 
   <img src="https://user-images.githubusercontent.com/75437852/120935338-4c44b300-c6d0-11eb-9649-2507eef5b96a.png">
 </p>
 
-  - Percentage of fatalities per gender reveals a higher rate for females at 6.41%, this would be obvious due to higher number of cases in females. <br>
- 
-![fatal_by_gender](https://user-images.githubusercontent.com/33900637/165676682-806c81c2-8b31-45cd-b986-f9d78ca498d5.png)
-<br>
+  - Percentage of fatalities per gender reveals a higher rate for females at 6.41%, this would be obvious due to higher number of cases in females. 
+  
+ ![fatal_by_gender](https://user-images.githubusercontent.com/33900637/165676739-8df027cc-3210-4de3-9bc3-31513d87c82e.png)
+
  
  ## Storyboard
  
