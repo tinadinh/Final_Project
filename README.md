@@ -15,12 +15,12 @@ Below are the steps taken to provide results for this analysis.
 <br>
 
 ## Extract, Transform & Load
-The original data downloaded had 522,465 records which is a much larger file to work with and push in github.  Therefore the dataset has been scaled down using a random sample method and creating a [sample_covid_dataset.csv](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Datasource/sample_covid_dataset.csv), resulting in 13,524 records.<br>
+The original data downloaded had 522,465 records which is a much larger file to work with and push in github.  Therefore the dataset has been scaled down using a random sample method and creating a *sample_covid_dataset.csv*, resulting in 13,524 records.<br>
 This sampled dataset has been used for the database, machine learning model, exploratory analysis, Tableau and the interactive dashboard.<br>
 *The sampled data has been filtered, cleaned and segregated to create new smaller datasets for each part of the project.*<br>
 
 ## Database 
-After the cleaning and preprocessing of the dataset, the [cleaned_dataset](https://github.com/UofT-Government-Project/Covid19_PHU/blob/Week_2/Datasource/PHU_dataset_cleaned_michelle.csv) was split into four different tables.  Below is the ERD as a blueprint for the database, establishing the relationships created for each table.
+After the cleaning and preprocessing of the dataset, the *PHU_dataset_cleaned.csv* was split into four different tables.  Below is the ERD as a blueprint for the database, establishing the relationships created for each table.
 
 ### ERD:
 
@@ -52,11 +52,11 @@ To create a connection from the database into PostgreSql, the SQLAlchemy's creat
 
 Once the data was saved on the cloud storage, it was imported into a SQL database, Postgres using pgAdmin.  Using queries, a table named "phu" was created to host the entire dataset.  Further querying the main table, additional tables were created and then saved as csv files in the Datasource file.  The new files were used by group members for different aspects of the project.<br>
 <br>
-*[schema1.sql](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/SQL_Schemas/schema1.sql) file shows the queries.*
+*schema1.sql* file shows the queries.
 
 Using the newly saved csv files, four more tables were created and their corresponding data imported with queries.<br>
 <br>
-*[schema2.sql](https://github.com/UofT-Government-Project/Covid19_PHU/blob/Week_2/schema2.sql) file shows the additional queries.*
+*schema2.sql* file shows the additional queries.
 <br>
 
 #### Tables from schema2.sql:
@@ -172,7 +172,7 @@ Based on the Confusion Matrix below there are 3,152 Covid-19 cases used in the m
 
 ## Alternative Machine Learning Model
 
-An alternative model was created using another dataset, [cases_by_status_and phu.csv](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Datasource/cases_by_status_and_phu.csv).  This dataset was an exploratory model to predict exponential quantities and measure the accuracy of the model.  A Linear Regression was chosen due to the nature of the data. <br>
+An alternative model was created using another dataset, *cases_by_status_and phu.csv*.  This dataset was an exploratory model to predict exponential quantities and measure the accuracy of the model.  A Linear Regression was chosen due to the nature of the data. <br>
 <br>
 This dataset has 5 features; Date of when the cases was reported, PHU ID, Active cases, Resolved cases and Fatalities.  Data was cleaned using same steps as previous model.  Since the data is an accummulating data, it was normalized by calculating the square root, taking the results and squaring the numbers.  The data can also be normalized by using logarithm and reversing it by power operator.<br>
 We used the "Deaths" as the target *(y)* and the date as the feature *(X)*.  The active and resolved cases were removed as they would impact the results negatively and cause overfitting.  Again the data was split into training and testing sets. <br>
@@ -259,7 +259,7 @@ In this image, we can see cases by age group and gender on a monthly timeline st
 </p>
 <br>
 
-***A full storyboard can be viewed on Tableau Public [here](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Ontario_Public_Health_Unit_Covid_Cases_v2020.4.twbx).***
+***A full storyboard can be viewed on Tableau Public [here](https://public.tableau.com/app/profile/tina.dinh/viz/OntarioCovidCases_16511168875170/OntarioPublicHealthUnitCovidStatistics).***
 <br>
 <br>
 
@@ -267,7 +267,7 @@ In this image, we can see cases by age group and gender on a monthly timeline st
 
 The final aspect of this analysis was an interactive dashboard that has been created providing statistics of age group and gender for each Public Health Unit in Ontario.  Users can select a specific Public Health Unit in Ontario to view it's location, number of cases by age, number of cases by gender and percentage of outcome. <br>
 <br>
-The sample data was extracted using pandas in Python to clean data using similar process as the ETL.  Then the data was grouped by each PHU to tabulate totals.  Thereafter the final dataframe was transformed into a preferred JSON format.  *Step by step process can be seen in [Processing csv_to_json](https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/JS_Dashboard/processing_csv_to_json.ipynb).*  <br>
+The sample data was extracted using pandas in Python to clean data using similar process as the ETL.  Then the data was grouped by each PHU to tabulate totals.  Thereafter the final dataframe was transformed into a preferred JSON format.  *Step by step process can be seen in processing_csv_to_json.ipynb.*  <br>
 <br>
 Once data was saved as required, the file was called into a JavaScript file using D3 library.  With each iteration, 3 charts were created using plotly.  Finally, the data was displayed in a HTML file calling bootstrap 3 to format the positioning of each chart. <br>
 <br>
@@ -287,21 +287,3 @@ With this unforeseen pandemic, the Government rolled out the vaccination program
 <br>
 Should there be another pandemic/epidemic in the future, we hope this analysis can shed light  and can be imitated on how to target a specific demographic of the population for each region in Ontario.  <br>
 Understanding there may be other logistics involved to distribute the vaccine based on the results here, a similar analysis can possibly highlight the need to vaccinate a specific part of the population first.  Which not only could avoid further spread but also diminish the cases sooner.
-
-## Presentation
-
-A presentation is availble that provides a summary of the steps taken for this analysis:
-
-***View presentation [here](https://docs.google.com/presentation/d/1EvUDf52QJ8CuFFJVrOCj7XIvXAN0OAFUomOtSCR1YYI/edit?usp=sharing).***
-
-
-The presentation includes:
-- Project topic and reason 
-- Key Question
-- Description of data sourced
-- Explaination of selected database and process
-- Description of the machine learning model, reasons selected and outcome
-- Description of the exploratory analysis conducted on the data
-- Visualizations of the Storyboard
-- Description and outcome of an interactive dashboard
-- Summary
