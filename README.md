@@ -1,4 +1,4 @@
-# Covid-19 and Public Health Units in Ontario
+# COVID-19 in Ontario for our Public Health Units
 
 ## Overview
 This project is to showcase the strategic thinking and efforts to predict and analyze the Covid-19 data for a vaccine roll-out program.  The analysis will recognize the trends; the highs and lows of Covid 19 cases at each of the 34 Public Health Units in Ontario, Canada. The reason for this topic is because Covid-19 has had a huge impact on everyone and also it is the most relevant and relatable topic to discuss currently.
