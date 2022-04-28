@@ -74,13 +74,13 @@ Using the newly saved csv files, four more tables were created and their corresp
 3.  PHU_Gender_final - includes the gender and the count associated with each PHU ID.
 
 <p align='center'>
-  <img width='400' height='310' src="https://github.com/UofT-Government-Project/Covid19_PHU/blob/main/Images/phu_gender_final.png?raw=true">
+    <img width='400' height='310' src="https://user-images.githubusercontent.com/33900637/165677818-d0327a0b-e037-4231-b5b8-c59d8dc3e1a3.png">
 </p>
 
 4.  PHU_Age_Group_Final - contains the age group per case associated with each PHU ID.
 
 <p align='center'>
-  <img width="250" alt="phu_age_group_final" src="https://user-images.githubusercontent.com/33900637/165677667-df43a048-a335-4a45-bbc7-5d432d3787e9.png">
+  <img width='400' height='310' src="https://user-images.githubusercontent.com/33900637/165677667-df43a048-a335-4a45-bbc7-5d432d3787e9.png">
 </p>                               
                                
                                 
