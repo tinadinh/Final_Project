@@ -286,3 +286,5 @@ With this unforeseen pandemic, the Government rolled out the vaccination program
 <br>
 Should there be another pandemic/epidemic in the future, I hope this analysis can shed light  and can be imitated on how to target a specific demographic of the population for each region in Ontario.  <br>
 Understanding there may be other logistics involved to distribute the vaccine based on the results here, a similar analysis can possibly highlight the need to vaccinate a specific part of the population first.  Which not only could avoid further spread but also diminish the cases sooner.
+
+https://youtu.be/0kx8PEIAMHs
