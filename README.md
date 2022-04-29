@@ -1,4 +1,5 @@
 # COVID-19 in Ontario for our Public Health Units
+https://youtu.be/0kx8PEIAMHs
 
 ## Overview
 This project is to showcase the strategic thinking and efforts to predict and analyze the COVID-19 data for a vaccine roll-out program.  The analysis will recognize the trends; the highs and lows of COVID-19 cases at each of the 34 Public Health Units in Ontario, Canada. The reason for this topic is because COVID-19 has had a huge impact on everyone and also it is the most relevant and relatable topic to discuss currently.
@@ -286,5 +287,3 @@ With this unforeseen pandemic, the Government rolled out the vaccination program
 <br>
 Should there be another pandemic/epidemic in the future, I hope this analysis can shed light  and can be imitated on how to target a specific demographic of the population for each region in Ontario.  <br>
 Understanding there may be other logistics involved to distribute the vaccine based on the results here, a similar analysis can possibly highlight the need to vaccinate a specific part of the population first.  Which not only could avoid further spread but also diminish the cases sooner.
-
-https://youtu.be/0kx8PEIAMHs
